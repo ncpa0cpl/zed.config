@@ -1,0 +1,13 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-/": "editor::DeleteLine",
+      "ctrl-]": "editor::Fold",
+      "ctrl-[": "editor::UnfoldLines",
+      "ctrl-alt-.": "editor::SelectLine",
+      "alt-right": "editor::MoveToEndOfLine",
+      "alt-left": "editor::MoveToBeginningOfLine"
+    }
+  }
+]

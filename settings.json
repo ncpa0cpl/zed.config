@@ -1,0 +1,50 @@
+{
+  "ui_font_size": 20,
+  "buffer_font_size": 20,
+  "git_status": true,
+  "base_keymap": "VSCode",
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Zedokai"
+  },
+  "languages": {
+    "JavaScript": {
+      "format_on_save": {
+        "external": {
+          "command": "yarn prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      },
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "TypeScript": {
+      "format_on_save": {
+        "external": {
+          "command": "yarn prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      },
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "TSX": {
+      "format_on_save": {
+        "external": {
+          "command": "yarn prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      },
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    }
+  }
+}
