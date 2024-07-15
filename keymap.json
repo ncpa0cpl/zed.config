@@ -9,5 +9,12 @@
       "alt-right": "editor::MoveToEndOfLine",
       "alt-left": "editor::MoveToBeginningOfLine"
     }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-q": ["terminal::SendKeystroke", "ctrl-q"],
+      "ctrl-s": ["terminal::SendKeystroke", "ctrl-s"]
+    }
   }
 ]
