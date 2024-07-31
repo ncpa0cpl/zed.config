@@ -1,0 +1,210 @@
+{
+  "id": "gnome",
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Gnome",
+  "version": "0.0.1",
+  "author": "ncpa0cpl",
+  "themes": [
+    {
+      "name": "Gnome Dark",
+      "appearance": "dark",
+      "style": {
+        "background.appearance": "opaque",
+        "accents": [],
+        "border": "#ffffff26",
+        "border.variant": "#ffffff26",
+        "border.focused": "#78aeed80",
+        "border.selected": "#ffffff26",
+        "border.transparent": "#ffffff26",
+        "border.disabled": "#ffffff26",
+        "elevated_surface.background": "#2C2C2C",
+        "surface.background": "#242424",
+        "background": "#242424",
+        "element.background": "#3584e4",
+        "element.hover": "#ffffff12",
+        "element.active": null,
+        "element.selected": "#ffffff1a",
+        "element.disabled": null,
+        "drop_target.background": null,
+        "ghost_element.background": null,
+        "ghost_element.hover": "#ffffff12",
+        "ghost_element.active": null,
+        "ghost_element.selected": "#ffffff1a",
+        "ghost_element.disabled": null,
+        "text": "#ffffff",
+        "text.muted": null,
+        "text.placeholder": null,
+        "text.disabled": null,
+        "text.accent": null,
+        "icon": null,
+        "icon.muted": null,
+        "icon.disabled": null,
+        "icon.placeholder": null,
+        "icon.accent": null,
+        "status_bar.background": "#242424",
+        "title_bar.background": "#303030",
+        "title_bar.inactive_background": "#303030",
+        "toolbar.background": "#242424",
+        "tab_bar.background": "#262626",
+        "tab.inactive_background": "#242424",
+        "tab.active_background": "#303030",
+        "search.match_background": null,
+        "panel.background": "#242424",
+        "panel.focused_border": null,
+        "pane.focused_border": null,
+        "pane_group.border": "#ffffff26",
+        "scrollbar.thumb.background": null,
+        "scrollbar.thumb.hover_background": null,
+        "scrollbar.thumb.border": null,
+        "scrollbar.track.background": "#242424",
+        "scrollbar.track.border": null,
+        "editor.foreground": null,
+        "editor.background": "#242424",
+        "editor.gutter.background": "#242424",
+        "editor.subheader.background": null,
+        "editor.active_line.background": null,
+        "editor.highlighted_line.background": null,
+        "editor.line_number": null,
+        "editor.active_line_number": null,
+        "editor.invisible": null,
+        "editor.wrap_guide": "#ffffff26",
+        "editor.active_wrap_guide": "#ffffff26",
+        "editor.indent_guide": null,
+        "editor.indent_guide_active": null,
+        "editor.document_highlight.read_background": null,
+        "editor.document_highlight.write_background": null,
+        "terminal.background": "#242424",
+        "terminal.foreground": null,
+        "terminal.bright_foreground": null,
+        "terminal.dim_foreground": null,
+        "terminal.ansi.black": null,
+        "terminal.ansi.bright_black": null,
+        "terminal.ansi.dim_black": null,
+        "terminal.ansi.red": null,
+        "terminal.ansi.bright_red": null,
+        "terminal.ansi.dim_red": null,
+        "terminal.ansi.green": null,
+        "terminal.ansi.bright_green": null,
+        "terminal.ansi.dim_green": null,
+        "terminal.ansi.yellow": null,
+        "terminal.ansi.bright_yellow": null,
+        "terminal.ansi.dim_yellow": null,
+        "terminal.ansi.blue": null,
+        "terminal.ansi.bright_blue": null,
+        "terminal.ansi.dim_blue": null,
+        "terminal.ansi.magenta": null,
+        "terminal.ansi.bright_magenta": null,
+        "terminal.ansi.dim_magenta": null,
+        "terminal.ansi.cyan": null,
+        "terminal.ansi.bright_cyan": null,
+        "terminal.ansi.dim_cyan": null,
+        "terminal.ansi.white": null,
+        "terminal.ansi.bright_white": null,
+        "terminal.ansi.dim_white": null,
+        "link_text.hover": null,
+        "conflict": null,
+        "conflict.background": null,
+        "conflict.border": null,
+        "created": null,
+        "created.background": null,
+        "created.border": null,
+        "deleted": null,
+        "deleted.background": null,
+        "deleted.border": null,
+        "error": null,
+        "error.background": null,
+        "error.border": null,
+        "hidden": null,
+        "hidden.background": null,
+        "hidden.border": null,
+        "hint": "#969696ff",
+        "hint.background": null,
+        "hint.border": null,
+        "ignored": null,
+        "ignored.background": null,
+        "ignored.border": null,
+        "info": null,
+        "info.background": null,
+        "info.border": null,
+        "modified": null,
+        "modified.background": null,
+        "modified.border": null,
+        "predictive": null,
+        "predictive.background": null,
+        "predictive.border": null,
+        "renamed": null,
+        "renamed.background": null,
+        "renamed.border": null,
+        "success": null,
+        "success.background": null,
+        "success.border": null,
+        "unreachable": null,
+        "unreachable.background": null,
+        "unreachable.border": null,
+        "warning": null,
+        "warning.background": null,
+        "warning.border": null,
+        "players": [],
+        "syntax": {
+          "attribute": {
+            "color": "#d19a66"
+          },
+          "constant": {
+            "color": "#d19a66"
+          },
+          "constructor": {
+            "color": "#e06c75"
+          },
+          "embedded": {
+            "color": "#abb2bf"
+          },
+          "function": {
+            "color": "#61afef"
+          },
+          "keyword": {
+            "color": "#c678dd"
+          },
+          "number": {
+            "color": "#d19a66"
+          },
+          "operator": {
+            "color": "#FFFFFF"
+          },
+          "property": {
+            "color": "#e06c75"
+          },
+          "string": {
+            "color": "#98c379"
+          },
+          "string.escape": {
+            "color": "#98c379"
+          },
+          "string.regex": {
+            "color": "#98c379"
+          },
+          "string.special": {
+            "color": "#56b6c2"
+          },
+          "string.special.symbol": {
+            "color": "#56b6c2"
+          },
+          "tag": {
+            "color": "#e06c75"
+          },
+          "text.literal": {
+            "color": "#98c379"
+          },
+          "type": {
+            "color": "#e5c07b"
+          },
+          "variable": {
+            "color": "#e06c75"
+          },
+          "variable.special": {
+            "color": "#e5c07b"
+          }
+        }
+      }
+    }
+  ]
+}
