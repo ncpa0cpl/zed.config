@@ -10,7 +10,7 @@
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
-        "accents": [],
+        "accents": ["#3584e4"],
         "border": "#ffffff26",
         "border.variant": "#ffffff26",
         "border.focused": "#78aeed80",
@@ -31,10 +31,10 @@
         "ghost_element.active": null,
         "ghost_element.selected": "#ffffff1a",
         "ghost_element.disabled": null,
-        "text": "#ffffff",
-        "text.muted": null,
-        "text.placeholder": null,
-        "text.disabled": null,
+        "text": "#D1D1D1",
+        "text.muted": "#B2B2B2",
+        "text.placeholder": "#B2B2B2BD",
+        "text.disabled": "#B2B2B2BD",
         "text.accent": null,
         "icon": null,
         "icon.muted": null,
@@ -58,11 +58,11 @@
         "scrollbar.thumb.border": null,
         "scrollbar.track.background": "#242424",
         "scrollbar.track.border": null,
-        "editor.foreground": null,
+        "editor.foreground": "#D1D1D1",
         "editor.background": "#242424",
         "editor.gutter.background": "#242424",
         "editor.subheader.background": null,
-        "editor.active_line.background": null,
+        "editor.active_line.background": "#FFFFFF06",
         "editor.highlighted_line.background": null,
         "editor.line_number": null,
         "editor.active_line_number": null,
@@ -71,8 +71,8 @@
         "editor.active_wrap_guide": "#ffffff26",
         "editor.indent_guide": null,
         "editor.indent_guide_active": null,
-        "editor.document_highlight.read_background": null,
-        "editor.document_highlight.write_background": null,
+        "editor.document_highlight.read_background": "#B3B3B310",
+        "editor.document_highlight.write_background": "#B3B3B310",
         "terminal.background": "#242424",
         "terminal.foreground": null,
         "terminal.bright_foreground": null,
@@ -111,9 +111,9 @@
         "deleted": null,
         "deleted.background": null,
         "deleted.border": null,
-        "error": null,
-        "error.background": null,
-        "error.border": null,
+        "error": "#9c101a",
+        "error.background": "#9c101a",
+        "error.border": "opaque",
         "hidden": null,
         "hidden.background": null,
         "hidden.border": null,
@@ -123,31 +123,34 @@
         "ignored": null,
         "ignored.background": null,
         "ignored.border": null,
-        "info": null,
-        "info.background": null,
-        "info.border": null,
+        "info": "#205faa",
+        "info.background": "#205faa",
+        "info.border": "opaque",
         "modified": null,
         "modified.background": null,
         "modified.border": null,
-        "predictive": null,
+        "predictive": "#B2B2B2BD",
         "predictive.background": null,
         "predictive.border": null,
         "renamed": null,
         "renamed.background": null,
         "renamed.border": null,
-        "success": null,
-        "success.background": null,
-        "success.border": null,
+        "success": "#038d4d",
+        "success.background": "#038d4d",
+        "success.border": "opaque",
         "unreachable": null,
         "unreachable.background": null,
         "unreachable.border": null,
-        "warning": null,
-        "warning.background": null,
-        "warning.border": null,
+        "warning": "#c2a131",
+        "warning.background": "#c2a131",
+        "warning.border": "opaque",
         "players": [],
         "syntax": {
           "attribute": {
             "color": "#d19a66"
+          },
+          "comment": {
+            "color": "#878787"
           },
           "constant": {
             "color": "#d19a66"
@@ -157,6 +160,9 @@
           },
           "embedded": {
             "color": "#abb2bf"
+          },
+          "boolean": {
+            "color": "#d19a66"
           },
           "function": {
             "color": "#61afef"
@@ -168,7 +174,7 @@
             "color": "#d19a66"
           },
           "operator": {
-            "color": "#FFFFFF"
+            "color": "#D1D1D1"
           },
           "property": {
             "color": "#e06c75"
@@ -198,7 +204,7 @@
             "color": "#e5c07b"
           },
           "variable": {
-            "color": "#e06c75"
+            "color": "#ECE9E2"
           },
           "variable.special": {
             "color": "#e5c07b"

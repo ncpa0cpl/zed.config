@@ -1,4 +1,5 @@
 {
+  "ui_font_family": "Inconsolata",
   "ui_font_size": 20,
   "buffer_font_size": 20,
   "git_status": true,
