@@ -12,5 +12,6 @@
     "mode": "system",
     "light": "One Light",
     "dark": "Gnome Dark"
-  }
+  },
+  "languages": {}
 }
